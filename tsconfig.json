@@ -35,7 +35,7 @@
     // Recommended Options
     "strict": true, // Enable all strict type-checking options
     "jsx": "react-jsx",
-    "verbatimModuleSyntax": true,
+    "verbatimModuleSyntax": false,
     "isolatedModules": true,
     "noUncheckedSideEffectImports": true,
     "moduleDetection": "force",
