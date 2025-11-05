@@ -16,4 +16,10 @@ fcsAsyncPromise().then((message) => {
     console.log("NOT OK");
 });
 
+
+const ret1 = await fcsAsyncPromise();
+console.log("ret1 = " + ret1);  
+const ret2 = await fcsAsyncPromise();
+console.log("ret2 = " + ret2);
+
 console.log('End app!');
