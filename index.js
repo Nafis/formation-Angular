@@ -1,9 +1,13 @@
 console.log('Start app!');
 
-function fcsAsyncPromise() {
+function fcsAsyncPromise(param) {
     return new Promise((resolve, reject) => {
         setTimeout(() => {
-            resolve('FCS Async Promise resolved!');
+            if (param === 0) {
+                resolve('OH mY GOD! Time out');
+            } else {
+                reject('Error occurred');
+            }
         }, 3000);
     });
 }
@@ -16,10 +20,22 @@ fcsAsyncPromise().then((message) => {
     console.log("NOT OK");
 });
 
+try{
+    const ret = await fcsAsyncPromise(0);
+    console.log("ret = " + ret);  
+}
+catch(es){
+    console.log(es);
+}
 
-const ret1 = await fcsAsyncPromise();
-console.log("ret1 = " + ret1);  
-const ret2 = await fcsAsyncPromise();
-console.log("ret2 = " + ret2);
+
+
+try{
+    const ret = await fcsAsyncPromise(10);
+    console.log("ret = " + ret);  
+}
+catch(ez){
+    console.log(ez);
+}
 
 console.log('End app!');
