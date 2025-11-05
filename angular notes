@@ -1,0 +1,69 @@
+node.js et npm sont pour package management
+npm install -g @angular/cli cli==> commande line interfaces
+ng version
+ng new <nomdeprojet>
+angular est très adapté à des application complex, zone angular est fait pour isoler les zones que ca rest un peu plus simple comme react. react quand application devient lourde est moin adapté.
+	
+
+********VS CODE config en souvgarde automatique
+
+ 
+dependencies: pour execution
+devdependency : pour developement==MOTOR DE TESTS
+
+ecmascript: tous les Navigators soit normaliser sur java script  
+
+compiler : change une langue à une langue de base niveau
+transpiler: change une langue de haut niveau à une autre langue de haut niveau
+
+tsconfig.app : 
+tsconfig.spec: test
+ des fichier de type .d.ts : traduction comment traduire js 
+dans tsconfig : ES2022 ca vaut dire ECMAScript
+
+
+
+quand on build on prend le fichier angular.json
+
+il y a projects: dans lesquel on peut gérere plusieurs projets, .war, .zip
+
+
+en Angular le fichier main.ts est toujours le point d'enrée.
+
+angular est spa: single page application
+ca vaut dire : tout est en un seul html pour la raison de 
+
+definition:****************
+objet: un état+un comportement+un identité
+angular cycle de vie est très important: 
+
+
+
+
+
+1- in app.html tu enleve tout seuf <router-outlet/>
+2- in app.ts il y a protected readonly  qui est équivalent du "const"
+
+
+- use parenthese inter a balise html if you use ts from html exemple:
+<button (click)="doClickBt()">Click me</button>
+
+
+
+3- in terminal, tap: ng generate component <name of component>
+4- in terminal, tap : ng generate service <name of service>
+
+
+---------------------------------------------------------------
+Day 2 (programmation asyncron-call back functions- promesses)
+créer un node.js a besoin de packages.js pour le créer commence par un folder vide.
+en terminal:
+npm init -y
+pour ajouter typescript et l'importer:
+npm install --save-dev typescript
+
+
+chibang c'est #!/bin/sh
+
+
+
